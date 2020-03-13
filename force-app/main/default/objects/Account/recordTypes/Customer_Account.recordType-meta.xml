@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Customer_Account</fullName>
     <active>true</active>
-    <description>For customers and prospects Testing</description>
+    <description>For customers and prospects Testing 2</description>
     <label>Customer Account</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
