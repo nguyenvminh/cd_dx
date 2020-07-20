@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Yapoo</fullName>
-    <availability>online</availability>
+       <fullName>Yapoo</fullName>
+        <availability>online</availability>
     <description>This is a &#39;Description&quot; &gt; than 0</description>
-    <displayType>massActionButton</displayType>
+        <displayType>massActionButton</displayType>
     <encodingKey>UTF-8</encodingKey>
     <height>600</height>
     <linkType>url</linkType>
     <masterLabel>Yapoo</masterLabel>
     <openType>sidebar</openType>
-    <protected>false</protected>
+    <protected>false</protected>  
     <requireRowSelection>true</requireRowSelection>
     <url>http://www.yahoo.com</url>
 </WebLink>
