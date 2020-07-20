@@ -3,9 +3,9 @@
     <fullName>Priority__c</fullName>
     <description>Description with &quot;special characters&quot; &gt; .</description>
     <externalId>false</externalId>
-    <label>Priority</label>
+       <label>Priority</label>
     <required>false</required>
-    <trackTrending>false</trackTrending>
+        <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
