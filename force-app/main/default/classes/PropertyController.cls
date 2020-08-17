@@ -3,6 +3,7 @@ global with sharing class PropertyController {
     @AuraEnabled
     public static PropertyPagedResult findAll(String searchKey, Decimal minPrice, Decimal maxPrice, Decimal pageSize, Decimal pageNumber) {
 		Integer pSize = (Integer)pageSize;
+	//This is a simple change
         String key = '%' + searchKey + '%';
         Integer offset = ((Integer)pageNumber - 1) * pSize;
         PropertyPagedResult r =  new PropertyPagedResult();
