@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>activity</dataset>
+    <dimensions>
+        <field>AccountId</field>
+        <isDerived>false</isDerived>
+        <linkTemplate>https://www.google.com</linkTemplate>
+        <linkTemplateEnabled>true</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>AccountId</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>AccountId</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.BillingCountry</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>false</linkTemplateEnabled>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Industry</field>
+        <isDerived>false</isDerived>
+        <linkTemplateEnabled>false</linkTemplateEnabled>
+        <recordDisplayFields>
+            <recordDisplayField>Owner.Username</recordDisplayField>
+            <sortIndex>0</sortIndex>
+        </recordDisplayFields>
+        <recordIdField>AccountId</recordIdField>
+        <salesforceActionsEnabled>false</salesforceActionsEnabled>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+</WaveXmd>
