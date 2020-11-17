@@ -3,8 +3,8 @@
     <labels>
         <fullName>My_Custom_Label</fullName>
         <language>en_US</language>
-        <protected>true</protected>
+        <protected>false</protected>
         <shortDescription>My Custom Label</shortDescription>
-        <value>Label 1</value>
+        <value>Laburnum</value>
     </labels>
 </CustomLabels>
