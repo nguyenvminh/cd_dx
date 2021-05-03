@@ -13,3 +13,6 @@ package.xml
 
 #Audience
 /force-app/main/default/audience/*
+
+#Muting permission set
+/force-app/main/default/mutingpermissionsets/*
